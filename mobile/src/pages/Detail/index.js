@@ -13,7 +13,12 @@ export default function Detail() {
 
   const incident = route.params.incident;
 
-  const textoBody = `Hola ${incident.name}, me gustaria ayudar en el caso del ${incident.title} con ${incident.value}`;
+  const textoBody = `Hola ${incident.name}, me gustaria ayudar en el caso del ${
+    incident.title
+  } con ${Intl.NumberFormat("es-AR", {
+    style: "currency",
+    currency: "ARS"
+  }).format(incident.value)}`;
   function navigateBack() {
     navigation.goBack();
   }
