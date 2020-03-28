@@ -6,6 +6,10 @@ Nodejs, Express, Knex, Sqlite, Jest, React, Axios, React-Native, Expo
 This is the result of last 4 days working on a simple app, that gives an interface to who want to help others 
 looking on a cases's list and getting in touch by Whatsapp message or email.
 
+
+![splash](splash.png) ![list](flast-list.png) ![contact](contact-buttons.png)
+
+
 `Backend`
 In the back hold an express server, define a simple cors access to * by default,
 create a REST API using a mvc struccture and a sqlite database handled by knex with migrate option for versioning history.
