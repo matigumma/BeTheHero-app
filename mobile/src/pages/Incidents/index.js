@@ -57,7 +57,7 @@ export default function Incidents() {
         </Text>
       </View>
 
-      <Text style={styles.title}>Bienvenido</Text>
+      <Text style={styles.title}>Lucas</Text>
       <Text style={styles.description}>
         Escoja uno de los casos y salve el dia.
       </Text>
